@@ -105,3 +105,25 @@ body {
   font-size: 1.235rem;
   margin-top: 1rem;
 }
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem 4rem;
+  }
+
+  .result_images img {
+    width: 50px;
+  }
+
+  .option_image img {
+    width: 25px;
+  }
+
+  .result {
+    font-size: 1.235rem;
+  }
+
+  .option_image p {
+    font-size: 0.8rem;
+  }
+}
